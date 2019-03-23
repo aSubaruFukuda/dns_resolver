@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[]) {
 	if (argc != 2) {
-		printf("usage: dnsres HOSTNAME\n");
+		printf("usage: dnsres NAME\n");
 		printf("example: dnsres www.google.com\n");
 		exit(1);
 	}
